@@ -1,12 +1,13 @@
-# RepoMap
-A Python script to generate and display the directory structure of any GitHub repository in a tree view format.
+# RepoTree
+
+RepoTree is a Python script that generates and displays the directory structure of any GitHub repository in a tree view format.
 
 ## Features
 
-- Fetches repository structure using the GitHub API
-- Displays the directory and file structure in a tree view format
-- Handles rate limiting and retries requests automatically
-- Provides error handling for common issues
+- **Fetch Repository Structure**: Retrieves the directory and file structure of a GitHub repository using the GitHub API.
+- **Tree View Format**: Displays the repository structure in an easy-to-read tree view format.
+- **Rate Limiting Handling**: Automatically handles rate limiting and retries requests.
+- **Error Handling**: Provides error handling for invalid repository names and unexpected response formats.
 
 ## Requirements
 
@@ -17,8 +18,8 @@ A Python script to generate and display the directory structure of any GitHub re
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/GitTreeVisualizer.git
-    cd GitTreeVisualizer
+    git clone https://github.com/Cantue35/RepoTree.git
+    cd RepoTree
     ```
 
 2. (Optional) Create a virtual environment:
@@ -38,3 +39,26 @@ Run the script and input the GitHub repository URL or `author/repo` format when 
 
 ```sh
 python repo_tree.py
+```
+
+#### Example:
+```
+Enter the GitHub repository URL or author/repo: Cantue35/RepoTree
+```
+
+The script will display the directory structure in a tree view format.
+
+```
+RepoTree/
+├── LICENSE
+├── README.md
+├── repo_tree.py
+```
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request if you have any suggestions or improvements.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
